@@ -31,7 +31,7 @@ public class Programa {
 		System.out.println();
 		media = aluno.getMedia();
 		System.out.println("Nota Final: "+ String.format("%.2f", media));
-		if (media >= 60.0f) {
+		if (media >= 60.0) {
 			System.out.println("Aprovado");
 		}
 		else {
